@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 html,
 body {
   padding: 0;
@@ -8,7 +12,14 @@ body {
 
 a {
   color: inherit;
+  /* text-decoration: underline; */
   text-decoration: none;
+}
+a:hover {
+  /* color: inherit; */
+  text-decoration: underline;
+  color: rgb(40, 75, 218);
+  /* text-decoration: none; */
 }
 
 * {
