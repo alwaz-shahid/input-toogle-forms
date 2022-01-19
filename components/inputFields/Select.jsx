@@ -19,8 +19,8 @@ const Select = ({
                     message: "This is required"
                 },
             })} {...props}>
-            {options.map((value) => (
-                <option value={value}>{value}</option>
+            {options.map((value, i) => (
+                <option key={i} value={value}>{value}</option>
             ))}
         </select>
     )
